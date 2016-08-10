@@ -15,6 +15,9 @@
 		6840F9961D5AC61900C5BAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6840F9941D5AC61900C5BAD8 /* LaunchScreen.storyboard */; };
 		6840F9A11D5AC61900C5BAD8 /* SearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6840F9A01D5AC61900C5BAD8 /* SearchBarTests.m */; };
 		6840F9AC1D5AC61900C5BAD8 /* SearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6840F9AB1D5AC61900C5BAD8 /* SearchBarUITests.m */; };
+		6840F9BB1D5AC7D600C5BAD8 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6840F9BA1D5AC7D600C5BAD8 /* SearchResultViewController.m */; };
+		6840F9BD1D5AD52F00C5BAD8 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6840F9BC1D5AD52F00C5BAD8 /* search.png */; };
+		6840F9BF1D5AD6CF00C5BAD8 /* last.png in Resources */ = {isa = PBXBuildFile; fileRef = 6840F9BE1D5AD6CF00C5BAD8 /* last.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		6840F9A71D5AC61900C5BAD8 /* SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6840F9AB1D5AC61900C5BAD8 /* SearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBarUITests.m; sourceTree = "<group>"; };
 		6840F9AD1D5AC61900C5BAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6840F9B91D5AC7D600C5BAD8 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		6840F9BA1D5AC7D600C5BAD8 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		6840F9BC1D5AD52F00C5BAD8 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		6840F9BE1D5AD6CF00C5BAD8 /* last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				6840F98A1D5AC61900C5BAD8 /* AppDelegate.m */,
 				6840F98C1D5AC61900C5BAD8 /* ViewController.h */,
 				6840F98D1D5AC61900C5BAD8 /* ViewController.m */,
+				6840F9B91D5AC7D600C5BAD8 /* SearchResultViewController.h */,
+				6840F9BA1D5AC7D600C5BAD8 /* SearchResultViewController.m */,
+				6840F9BC1D5AD52F00C5BAD8 /* search.png */,
+				6840F9BE1D5AD6CF00C5BAD8 /* last.png */,
 				6840F98F1D5AC61900C5BAD8 /* Main.storyboard */,
 				6840F9921D5AC61900C5BAD8 /* Assets.xcassets */,
 				6840F9941D5AC61900C5BAD8 /* LaunchScreen.storyboard */,
@@ -244,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6840F9961D5AC61900C5BAD8 /* LaunchScreen.storyboard in Resources */,
+				6840F9BF1D5AD6CF00C5BAD8 /* last.png in Resources */,
 				6840F9931D5AC61900C5BAD8 /* Assets.xcassets in Resources */,
 				6840F9911D5AC61900C5BAD8 /* Main.storyboard in Resources */,
+				6840F9BD1D5AD52F00C5BAD8 /* search.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 				6840F98E1D5AC61900C5BAD8 /* ViewController.m in Sources */,
 				6840F98B1D5AC61900C5BAD8 /* AppDelegate.m in Sources */,
 				6840F9881D5AC61900C5BAD8 /* main.m in Sources */,
+				6840F9BB1D5AC7D600C5BAD8 /* SearchResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

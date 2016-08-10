@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SearchInputtingDelegate <NSObject>
+
+- (void)searchMyInput:(NSString *)inputStr;
+
+@end
+
 @interface ViewController : UIViewController
 
+@property(nonatomic,weak)id<SearchInputtingDelegate>delegate;
 
 @end
 
