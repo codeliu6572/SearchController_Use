@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint LHHsearch.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SearchBar.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,19 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "LHHsearch"
+  s.name         = "SearchBar"
   s.version      = "0.0.1"
-  s.summary      = "A searchBar for ios"
+  s.summary      = "A searchBar for ios.A searchBar for ios.A searchBar for ios.A searchBar for ios.A searchBar for ios.A searchBar for ios."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "ajskjdbajkbsjd"
 
-  s.homepage     = "https://github.com/codeliu6572/SearchController_Useh"
+  s.homepage     = "https://github.com/codeliu6572/SearchController_Use/tree/master/SearchBar"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/LHHsearch.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/codeliu6572/SearchController_Use/SearchBar.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "SearchBar", "SearchBar/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "SearchBar/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -116,7 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "UIKit"
+  # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
