@@ -61,7 +61,7 @@
     _searchVC.searchVC = _searchController;
     __weak UISearchController *searchVC = _searchController;
 
-    _searchVC.backBlock = ^(){
+    _searchVC.backBlock = ^{
         [searchVC dismissViewControllerAnimated:YES completion:nil];
         searchVC.searchBar.text = @"";
     };
